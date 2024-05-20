@@ -1,4 +1,5 @@
 import "./Collection.css";
+import "./Container.css";
 import Image_slider from "./Image_slider";
 import E1 from "../assets/firstE.jpeg";
 import E2 from "../assets/secondE.jpeg";
@@ -11,6 +12,15 @@ import Card_third from "./Card_third";
 const Collection = () => {
   return (
     <div className="Together">
+      <div className="Astrix_Logo">
+        <div className="Emlblem">
+          <div className="first"></div>
+          <div className="second"></div>
+          <div className="three"></div>
+          <div className="four"></div>
+        </div>
+        <div className="Astrix">Astrix.</div>
+      </div>
       <div className="Picture_slider">
         <div className="backText">
           ASTR <br />
