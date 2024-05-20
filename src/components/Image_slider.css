@@ -1,0 +1,39 @@
+.handleImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  margin: 20px;
+}
+.slider {
+  height: 600px;
+  width: 400px;
+  margin: 10px;
+}
+.slider_image {
+  display: flex;
+  z-index: 1;
+  /* animation: 3s linear 0s normal MovingImage; */
+}
+/* @keyframes MovingImage {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 600px;
+  }
+} */
+/* .First {
+  width: 200px;
+}
+.Second {
+}
+.Third {
+  width: 200px;
+} */

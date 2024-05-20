@@ -1,0 +1,505 @@
+.Container {
+  width: 1440px;
+  height: 1080px;
+  background-color: #fff4df;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.Astrix_Logo {
+  width: 406px;
+  height: 50.94px;
+  position: absolute;
+  top: 88px;
+  left: 50px;
+  gap: 20px;
+  opacity: 0px;
+  display: flex;
+}
+.Emlblem {
+  width: 48px;
+  height: 39.22px;
+  gap: 0px;
+  border: 0.32px 0px 0px 0px;
+  opacity: 0px;
+}
+.first {
+  width: 20.63px;
+  height: 9.42px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: absolute;
+  top: 15.44px;
+  left: 29.18px;
+
+  background: #1a1d21;
+}
+
+.second {
+  width: 9.56px;
+  height: 20.32px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  top: 25.23px;
+  left: 30.24px;
+  gap: 0px;
+  opacity: 0px;
+
+  background: #1a1d21;
+}
+.three {
+  width: 20.63px;
+  height: 9.42px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: absolute;
+  top: 23.29px;
+  left: 8.16px;
+  gap: 0px;
+  opacity: 0px;
+
+  background: #1a1d21;
+}
+.four {
+  width: 9.56px;
+  height: 20.32px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: absolute;
+  top: 3.54px;
+  left: 23.17px;
+  gap: 0px;
+  opacity: 0px;
+
+  background: #1a1d21;
+}
+.Astrix {
+  width: 139px;
+  height: 31px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 56.14px;
+  text-align: left;
+  color: #000000;
+}
+.GroupOne {
+  width: 1009px;
+  height: 521px;
+  position: absolute;
+  top: 279px;
+  left: 216px;
+  gap: 0px;
+  opacity: 0px;
+}
+.WE {
+  width: 104px;
+  height: 44px;
+  position: absolute;
+  padding: 5px;
+  top: 284px;
+  left: 221px;
+
+  gap: 0px;
+  opacity: 0px;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+.imageFirst {
+  width: 371px;
+  height: 61px;
+  object-fit: cover;
+  position: absolute;
+  top: 279px;
+  left: 336px;
+  gap: 0px;
+  opacity: 0px;
+}
+.ORGANIZE {
+  width: 501px;
+  height: 61px;
+
+  position: absolute;
+  gap: 0px;
+  opacity: 0px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+  background-color: #fff4df;
+  z-index: 100;
+  animation: 3s ease-out 0s alternate infinite rightMovement;
+}
+@keyframes rightMovement {
+  from {
+    top: 279px;
+    left: 718px;
+  }
+  to {
+    top: 279px;
+    left: 630px;
+  }
+}
+.CONNECTION {
+  width: 453px;
+  height: 44px;
+  position: absolute;
+  top: 392px;
+  left: 216px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+.imageSecond {
+  height: 74px;
+  object-fit: cover;
+  position: absolute;
+  top: 377px;
+  left: 680px;
+  gap: 0px;
+  opacity: 0px;
+  animation: 3s ease-out 0s alternate infinite leftMovement;
+}
+@keyframes leftMovement {
+  from {
+    width: 539px;
+  }
+  to {
+    width: 450px;
+  }
+}
+.imageThree {
+  height: 74px;
+  width: 350px;
+  object-fit: cover;
+  background-position: center;
+  position: absolute;
+  top: 500px;
+  left: 221px;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 1;
+}
+
+.MainSecond {
+  background-color: #fff4df;
+  position: absolute;
+  border: 1px solid black;
+  z-index: 100;
+  animation: 3s ease-out 0s alternate infinite threeMove;
+}
+@keyframes threeMove {
+  from {
+    top: 499px;
+    left: 492px;
+  }
+  to {
+    top: 499px;
+    left: 350px;
+  }
+}
+.BETWEEN {
+  width: 319px;
+  height: 74px;
+  background-color: #fff4df;
+  padding: 20px 5px;
+
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+.MUSIC {
+  width: 219px;
+  height: 74px;
+  padding: 10px;
+  background-color: #fff4df;
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+.imageFour {
+  width: 167px;
+  height: 74px;
+  object-fit: cover;
+  padding: 10px;
+  background-color: #fff4df;
+  position: absolute;
+  top: 0px;
+  left: 322px;
+  gap: 0px;
+  opacity: 0px;
+}
+.imageSix {
+  width: 250px;
+  height: 74px;
+  object-fit: cover;
+  position: absolute;
+  top: 725px;
+  left: 220px;
+  gap: 0px;
+  opacity: 0px;
+}
+.ARTIST {
+  width: 238px;
+  height: 44px;
+  position: absolute;
+  top: 622px;
+  left: 215px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Lexend;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+.imageEight {
+  width: 307px;
+  height: 74px;
+  top: 609px;
+  left: 996px;
+  gap: 0px;
+  opacity: 0px;
+
+  object-fit: cover;
+  position: absolute;
+  top: 609px;
+  left: 464px;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 1;
+}
+.ImageMain {
+  background-color: #fff4df;
+  width: 500px;
+  height: 74px;
+  position: absolute;
+
+  gap: 0px;
+  opacity: 0px;
+  z-index: 100;
+
+  animation: 3s ease-out 0s alternate infinite ImageMain;
+}
+@keyframes ImageMain {
+  0% {
+    top: 609px;
+    left: 689px;
+  }
+  20% {
+    top: 609px;
+    left: 700px;
+    overflow: hidden;
+  }
+  40% {
+    top: 609px;
+    left: 720px;
+    overflow: hidden;
+  }
+  60% {
+    top: 609px;
+    left: 740px;
+    overflow: hidden;
+  }
+  80% {
+    top: 609px;
+    left: 750px;
+    overflow: hidden;
+  }
+  100% {
+    top: 609px;
+    left: 750px;
+    overflow: hidden;
+  }
+}
+.CULTURE {
+  width: 296px;
+  height: 100%;
+  background-color: #fff4df;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+.imageNine {
+  min-width: 204px;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 310px;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 1;
+}
+.lastLine {
+  background-color: #fff4df;
+  /* width: 127px; */
+  /* height: 44px; */
+  position: absolute;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 100;
+  animation: 3s ease-out 0s alternate infinite MoveLine;
+}
+@keyframes MoveLine {
+  from {
+    top: 731px;
+    left: 457px;
+  }
+  to {
+    top: 731px;
+    left: 400px;
+  }
+}
+.ART {
+  background-color: #fff4df;
+  width: 127px;
+  height: 74px;
+  padding-top: 12px;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+.imageTen {
+  width: 151px;
+  height: 74px;
+  object-fit: cover;
+  position: absolute;
+  top: -5px;
+  left: 150px;
+  gap: 0px;
+  opacity: 0px;
+  background: #ffffff;
+}
+.COLLECTION {
+  width: 535px;
+  height: 44px;
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  gap: 0px;
+  padding: 10px;
+  opacity: 0px;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+/* .MainSecond {
+  background-color: #fff4df;
+  position: absolute;
+  border: 1px solid black;
+  z-index: 100;
+  animation: 1s ease-out 0s alternate infinite threeMove;
+}
+@keyframes threeMove {
+  from {
+    top: 499px;
+    left: 492px;
+  }
+  to {
+    top: 499px;
+    left: 350px;
+  }
+}
+.BETWEEN {
+  width: 319px;
+  height: 74px;
+  background-color: #fff4df;
+  padding: 20px 5px;
+
+  position: absolute;
+  top: 0px;
+  left: 5px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+.MUSIC {
+  width: 219px;
+  height: 74px;
+  padding: 10px;
+  background-color: #fff4df;
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: left;
+}
+.imageFour {
+  width: 167px;
+  height: 74px;
+  object-fit: cover;
+  padding: 10px;
+  background-color: #fff4df;
+  position: absolute;
+  top: 0px;
+  left: 322px;
+  gap: 0px;
+  opacity: 0px;
+} 
+.imageThree {
+  height: 74px;
+  width: 350px;
+  object-fit: cover;
+  background-position: center;
+  position: absolute;
+  top: 500px;
+  left: 221px;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 1;
+}*/
